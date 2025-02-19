@@ -64,8 +64,9 @@ h1 {
 .facebook { background-color: #1877F2; }
 
 .about-us {
-    padding: 50px;
-    background-color: white;
+    background-color: black; /* Black background */
+    color: white; /* White text */
+    padding: 40px;
     font-size: 1.5rem;
 }
 
