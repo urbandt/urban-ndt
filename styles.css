@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black; /* Black background */
+    color: white;
+    text-align: center;
+}
+
+/* Fixed Logo */
+.logo-container {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+}
+
+.logo-container img {
+    width: 80px; /* Adjust size as needed */
+    height: auto;
+}
+
+/* Hero Section */
+.hero {
+    background: url('background.jpg') no-repeat center center/cover;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero-text {
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+/* Social Icons */
+.social-icons {
+    position: fixed;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+/* About Us Section */
+.about-us {
+    background-color: black;
+    color: white;
+    padding: 40px;
+    font-size: 1.5rem;
+}
+
+/* Alternating Image and Text Sections */
+.image-text-container {
+    padding: 50px 0;
+}
+
+.image-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.image-text.left {
+    flex-direction: row;
+}
+
+.image-text.right {
+    flex-direction: row-reverse;
+}
+
+.image-text img {
+    width: 45%;
+    max-width: 500px;
+    height: auto;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.image-text .text {
+    width: 45%;
+    text-align: left;
+}
+
+.image-text.right .text {
+    text-align: right;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    background-color: black;
+    text-align: center;
+}
