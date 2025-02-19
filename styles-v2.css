@@ -68,6 +68,7 @@ h1 {
     color: white; /* White text */
     padding: 40px;
     font-size: 1.5rem;
+     font-family: 'Courier New', monospace; /* Change this font */
 }
 
 footer {
