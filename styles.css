@@ -8,11 +8,12 @@ body {
 
 .hero {
     background: url('background.jpg') no-repeat center center/cover;
-    height: 80vh;
+    height: 70vh; /* Reduce height to move text up */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start; /* Move text higher */
     align-items: center;
+    padding-top: 50px; /* Adjust space at the top */
     color: white;
 }
 
