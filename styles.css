@@ -51,9 +51,9 @@ body {
 }
 
 .social-icons img {
-    width: 80px; /* 2x larger */
-    height: 80px; /* 2x larger */
-    margin: 10px;
+    width: 40px; /* 2x larger */
+    height: 40px; /* 2x larger */
+    margin: 5px;
     border-radius: 50%;
 }
 
