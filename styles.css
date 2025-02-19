@@ -36,10 +36,10 @@ h1 {
 }
 
 .social-icons img {
-    width: 60px;
-    height: 60px;
-    margin: 5px;
-    border-radius: 50%;
+    width: 50px; /* Set to the same width */
+    height: 50px; /* Set to the same height */
+    object-fit: contain; /* Ensures the full image is visible */
+    border-radius: 50%; /* Makes them round */
 }
 
 .social {
