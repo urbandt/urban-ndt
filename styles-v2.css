@@ -8,7 +8,7 @@ body {
 
 .hero {
     background: url('background.jpg') no-repeat center center/cover;
-    height: 70vh; /* Reduce height to move text up */
+    height: 60vh; /* Reduce height to move text up */
     display: flex;
     flex-direction: column;
     justify-content: flex-start; /* Move text higher */
@@ -37,8 +37,8 @@ h1 {
 }
 
 .social-icons img {
-    width: 50px; /* Set to the same width */
-    height: 50px; /* Set to the same height */
+    width: 60px; /* Set to the same width */
+    height: 60px; /* Set to the same height */
     object-fit: contain; /* Ensures the full image is visible */
     border-radius: 50%; /* Makes them round */
 }
